@@ -10,3 +10,4 @@
             - top, bottom, right, left
 3. position - relative(원래 자리는 남아있다.) / absolute(대상 자체의 이동) / fixed(viewport 기준, 스크롤시에도 고정)
               / sticky(top,bottom,left,right가 값이 0일지라도 꼭 들어가야함.)
+4. position 요소 쌓임 순서 (1.작성순서 2.position사용 3.z-index의 숫자가 클수록)
