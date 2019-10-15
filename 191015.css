@@ -1,0 +1,46 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.box-image .box {
+    width: 500px;
+    height: 400px;
+    border: 2px dashed lightgray;
+    margin: 5px;
+    float: left;
+}
+.box-image .box1 {
+    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+}
+.box-image .box2 {
+    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png"),
+                      url("https://heropy.blog/css/images/vendor_icons/aws.png"),
+                      url("https://heropy.blog/css/images/vendor_icons/npm.png");
+}
+.box-repeat .box {
+    width: 450px;
+    height: 400px;
+    border: 2px dashed lightgray;
+    margin: 0 5px;
+    float: left;
+}
+.box-repeat .box1 {
+    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.box-repeat .box2 {
+    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+    background-size: 100px;
+    background-repeat: repeat-x;
+}
+.box-repeat .box3 {
+    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
+    background-size: 100px;
+    background-repeat: repeat-y;
