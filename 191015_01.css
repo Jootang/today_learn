@@ -4,7 +4,6 @@ body {
 }
 section {
     height: 300px;
-    border: 3px dashed lightgray;
 }
 .section1 {
     background-image: url("http://www.shakeshack.kr/images/main/main_visual_190703.jpg");
