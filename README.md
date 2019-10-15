@@ -17,3 +17,7 @@
 2. background-repeat
 3. background-position : top,bottom,right,left / 단위사용(%,px) / 혼용사용(사용시 위치이름사용 주의)
 4. background-attachment : fixed속성 사용
+
+## css- 전환 & 변환
+1. transition , transform(2D,3D)
+2. transform-origin / transform-style / perspective / perspective-origin / backface-visibility
