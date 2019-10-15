@@ -16,3 +16,4 @@
 1. background 중첩 사용 / ","사용
 2. background-repeat
 3. background-position : top,bottom,right,left / 단위사용(%,px) / 혼용사용(사용시 위치이름사용 주의)
+4. background-attachment : fixed속성 사용
