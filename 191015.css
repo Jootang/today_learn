@@ -29,18 +29,37 @@ body {
     border: 2px dashed lightgray;
     margin: 0 5px;
     float: left;
-}
-.box-repeat .box1 {
     background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
     background-size: 100px;
+}
+.box-repeat .box1 {
     background-repeat: no-repeat;
 }
 .box-repeat .box2 {
-    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
-    background-size: 100px;
     background-repeat: repeat-x;
 }
 .box-repeat .box3 {
-    background-image: url("https://heropy.blog/css/images/vendor_icons/css3.png");
-    background-size: 100px;
     background-repeat: repeat-y;
+}
+.box-position .box {
+    width: 350px;
+    height: 300px;
+    border: 2px dashed lightgray;
+    margin: 5px;
+    float: left;
+    background-image: url("https://heropy.blog/css/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.box-position .box1 {
+    background-position: right top;
+}
+.box-position .box2 {
+    background-position: 30% 60%;
+}
+.box-position .box3 {
+    background-position: 200px 40px;
+}
+.box-position .box4 {
+    background-position: 170px bottom;
+}
