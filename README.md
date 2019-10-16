@@ -22,3 +22,7 @@
 1. transition , transform(2D,3D)
 2. transform-origin / transform-style / perspective / perspective-origin / backface-visibility
 3. card 뒤집기
+
+## css - animation (19/10/16)
+1. animation(name,duration,timing-function,delay,interation-count,direction,fill-mode,play-state)
+2. multi-columns(columns-width/count, column-gap, column-rule)
