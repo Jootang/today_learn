@@ -26,3 +26,6 @@
 ## css - animation (19/10/16)
 1. animation(name,duration,timing-function,delay,interation-count,direction,fill-mode,play-state)
 2. multi-columns(columns-width/count, column-gap, column-rule)
+
+## css - flex
+1. Flex 개요 / Flex Container 속성 / Flex Items 속성
